@@ -23,13 +23,11 @@
 }
 
 #section-3>.sec3-bg-logo {
-    width: 25vw;
-    height: 60vh;
-    background-image: url("./../WEB-Images/sec3-bg-logo.png");
-    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
     position: absolute;
-    right: -2%;
-    top: 10%;
+    right: 2%;
+    top: 3%;
 }
 
 /* Section3 Elements  */
@@ -71,7 +69,7 @@
 .isl-frans-br {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     padding: 1%;
     margin-top: 1%;
@@ -89,7 +87,7 @@
 
 .isl-br-head-content>h4 {
     color: #ED1C24;
-    letter-spacing:5px;
+    letter-spacing: 3px;
     font-size: 1rem;
     font-family: apercu,'Times New Roman', Times, serif,sans-serif;
     font-weight: 50;
