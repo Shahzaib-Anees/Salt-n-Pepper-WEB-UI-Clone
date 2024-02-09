@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* apercu font face  */
+@font-face{
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(./../futurak.ttf);
+}
+
+/* Section 6 Styling  */
+#sec-6{
+    background-color: #000;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    height: fit-content;
+}
+
+/* Section 6 Elements Dov  */
+.sec-6-elements{
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+ /* Section 6 heading Content  */
+.sec-6-head-content{
+      width: 100%;
+      height: fit-content;
+      /* border: 2px solid yellow; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.sec-6-head-content>h3{
+    font-size: 3.2rem;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif,sans-serif;
+}
+
+.sec-6-head-content>h3>span{
+    font-size: 2rem;
+}
+
+/* New Franchise Divs  */
+.new-fran-det-div{
+    width: 100%;
+    padding: 1%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.fran-location-card-box{
+    background-color: #ffff;
+    color: #000;
+    padding: 2%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 9px;
+    border-radius: 5px;
+}
+/* h6  */
+.fran-location-card-box>h6{
+        color: #ED1C24;
+        font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+        letter-spacing: 4px;
+        font-weight: 100;
+}
+/* h3  */
+.fran-location-card-box>h3{
+       font-size: 1.5rem;
+       font-weight: 100;
+       word-spacing: 4px;
+       font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    }
+
+.fran-location-card-box>h3>span{
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin: 6px;
+}
+
+.fran-location-card-box>p{
+    font-size: 1.4rem;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 300;
+}
+
+/* Social Feed Section  */
+
+/* Image Wrapper Div  */
+.social-feed-image-wrapper{
+    /* border: 2px solid white; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-feed-image-wrapper>.social-feed-head-content{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: fit-content;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif,sans-serif,Arial, Helvetica, sans-serif;
+}
+
+/* Image Wrapper Div  */
+.social-feed-image-wrapper>.img-wrapper-div{
+    width: 100%;
+    height: fit-content;
+    margin-top: 1%;
+    display: flex;
+    gap: 18px;
+}
+
+
+.img-wrapper-div>a{
+    width: fit-content;
+    height: fit-content;
+}
+
+.img-wrapper-div>a:hover{
+    box-shadow: 0 0 0 0.2rem  rgba(0,123,255,.25);;
+}
+
+/* Images  */
+.img-wrapper-div>a>img{
+    width: 100%;
+}
+
+.img-wrapper-div>img:hover{
+      width: 100%;
+}

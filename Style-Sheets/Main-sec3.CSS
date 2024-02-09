@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* apercu font face  */
+@font-face {
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(./../futurak.ttf);
+}
+
+#section-3 {
+    background-color: rgba(255, 255, 255, 0.05);
+    height: fit-content;
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1%;
+}
+
+#section-3>.sec3-bg-logo {
+    width: 25vw;
+    height: 60vh;
+    background-image: url("./../WEB-Images/sec3-bg-logo.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -2%;
+    top: 10%;
+}
+
+/* Section3 Elements  */
+.section3-elements {
+    /* border: 2px solid white; */
+    width: 100%;
+    height: fit-content;
+    padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Section3 main heading  */
+.sec-3-main-head {
+    padding: 0.2%;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2px; */
+}
+
+.sec-3-main-head>h2 {
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sec-3-main-head>p {
+    color: white;
+    font-family: apercu, 'Times New Roman', Times, serif;
+}
+
+/* Islamabad Franchise Detail Div  */
+.isl-frans-br {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1%;
+    margin-top: 1%;
+}
+
+/* Isl head Content  */
+.isl-br-head-content {
+    width: 30%;
+    padding: 1%;
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.isl-br-head-content>h4 {
+    color: #ED1C24;
+    letter-spacing:5px;
+    font-size: 1rem;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 50;
+}
+
+.isl-br-head-content>h6{
+    color: white;
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 4%;
+}
+
+.isl-br-head-content>h6>span{
+    font-family: Futurak,sans-serif,'Times New Roman', Times, serif;
+    /* font-size: 2rem; */
+    font-weight: 200;
+}
+
+.isl-br-head-content>.para{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-size: 1rem;
+}
+/* Para 1 Icon  */
+.isl-br-head-content>.para>i{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 1.2rem;
+}
+
+/* Common in all  */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* Get Directon Button */
+.get-direction-button{
+      width: 100%;
+      height: fit-content;
+      /* border: 2px solid white; */
+      margin-top: 13%;
+      margin-left: 4%;
+}
+
+/* Button Anchor  */
+.gd-all-button{
+    width: fit-content;
+    padding: 3%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: baseline;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins',apercu,'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+/* Get Direction Button Focus  */
+.gd-all-button:focus{
+     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);;
+}
+.gd-all-button:hover{
+     box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);;
+}
+
+
+.gd-all-button>span{
+    background-color: white;
+    margin-left: 5px;
+    color: #ED1C24;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* Franchise Home Image  */
+
+.franchise-box-image{
+    margin-left: 9%;
+    margin-top: 3%;
+    padding: 0.5%;
+}
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section 3 Element 2  */
+/* Faislabad Branch Div  */
+.fsl-br-div{
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fsl-br-head-content{
+    width: 30%;
+    padding: 1%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.fsl-br-head-content>h4{
+    color: #ED1C24;
+    letter-spacing:5px;
+    font-size: 1rem;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 50;
+}
+
+.fsl-br-head-content>h6{
+    color: white;
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 4%;
+}
+
+.fsl-br-head-content>h6>span{
+    font-family: Futurak,sans-serif,'Times New Roman', Times, serif;
+    /* font-size: 2rem; */
+    font-weight: 200;
+}
+
+.fsl-br-head-content>.para{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-size: 1rem;
+}
+
+.fsl-br-head-content>.para>i{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 1.2rem;
+}
+
+
+/* Section 3 Element 3  */
+/* Bhalwalpur Branch Div  */
+.bhw-br-div{
+    width: 100%;
+    height: fit-content;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+/* Bhawalpur branch Head Content  */
+.bhw-br-head-content{
+    width: 35%;
+    padding: 1%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bhw-br-head-content>h4{
+    color: #ED1C24;
+    letter-spacing:5px;
+    font-size: 1rem;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 50;
+}
+
+.bhw-br-head-content>h6{
+    color: white;
+    margin-top: 2%;
+    font-size: 2rem;
+    font-family: apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-bottom: 4%;
+}
+
+.bhw-br-head-content>h6>span{
+    font-family: Futurak,sans-serif,'Times New Roman', Times, serif;
+    /* font-size: 2rem; */
+    font-weight: 200;
+}
+
+.bhw-br-head-content>.para{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-size: 1rem;
+}
+
+.bhw-br-head-content>.para>i{
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 1.2rem;
+}

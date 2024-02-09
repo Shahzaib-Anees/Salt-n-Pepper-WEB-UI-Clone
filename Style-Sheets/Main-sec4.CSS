@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* apercu font face  */
+@font-face {
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(./../futurak.ttf);
+}
+
+/* Section 4 Styling  */
+#sec-4{
+    background-color: #0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1%;
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid white; */
+}
+
+/* Section 4 Backgroung Logo  */
+.sec-4-bg-logo{
+      background-image: url('./../WEB-Images/sec-4-bg-logo.png');
+      width: 26%;
+      height: 25%;
+      background-size: cover;
+      position: absolute;
+      left: 2%;
+      top:3%;
+}
+
+/* Section 4 Elements Div  */
+.sec4-elements{
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+    margin: 2%;
+    padding: 2%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* Section4 Heading Content  */
+.sec4-main-head{
+    /* border: 2px solid yellow; */
+    padding: 0.2%;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec4-main-head>h3{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Section 4 Express Franchises div Styling */
+
+.sec-4-fran-img-div{
+    width: 80%;
+    /* border: 2px solid white; */
+    margin-top: 1%;
+    padding:1% ;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content:center;
+    gap:40px;
+}
+ /* Section4 Images  */
+.sec-4-fran-img-div>.sec-4-images{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    width: 30%;
+    /* justify-content: center; */
+    color: #fff;
+}
+
+/* Section4 Image Headings  */
+.sec-4-images>.sec-4-img-headers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    gap: 7px;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+}
+
+/* h4  */
+.sec-4-img-headers>h4{
+    color: #ED1C24;
+    font-weight: 100;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+}
+
+/* h3  */
+.sec-4-img-headers>h3{
+    color: #fff;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+/* Snp head  */
+.sec-4-img-headers>h3>.sec4-snp-head{
+    font-family: Futurak,sans-serif,'Times New Roman', Times, serif;
+}
+
+/* Paragraph  */
+.sec-4-img-headers>p{
+    color: #ffffffB3;
+    text-align: center;
+}
+
+/* Get Direction Button  */
+.position-seq{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* apercu font face  */
+@font-face {
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(./../futurak.ttf);
+}
+
+/* Footer Elements  */
+.footer-elements{
+    width: 100%;
+    height: fit-content;
+    padding-top: 10%;
+    padding-left: 11%;
+    padding-right: 11%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+
+/* Footer Section1  */
+.foot-sec1{
+    width: 36%;
+     padding: 1%;
+     height: fit-content;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     color: rgba(255, 255, 255, 0.7);
+    
+}
+
+
+/* Foot Section 1 Logo  */
+.foot-sec1>.foot-snp-logo{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 3%;
+}
+
+.foot-snp-logo>a{
+    width: fit-content;
+    height: fit-content;
+}
+
+.foot-snp-logo>a>img{
+    width: 40%;
+}
+
+/* Foot Section 1 Paragraph  */
+.foot-sec1>p{
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    line-height: 23px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Foot Sec 1 Anchors   */
+.foot-sec1-anchors{
+       display: flex;
+       gap: 20px;
+}
+.foot-sec1-anchors>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+}
+
+
+/* Footer Section 2  */
+.foot-sec2{
+    padding: 1%;
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.foot-sec2>h4{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.foot-sec2>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+    margin-bottom: 3%;
+}
+
+/* Footer Section 3  */
+.foot-sec3{
+    padding: 1%;
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.7);  
+}
+
+
+.foot-sec3>h4{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.foot-sec3>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.1rem;
+}
+
+.foot-sec3>p{
+    font-size: 1.1rem;
+}
+
+
+/* Footer Section 4  */
+.foot-sec4{
+    padding: 1%;
+    width: 20%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.foot-sec4>h4{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+/* Social Icons  */
+.foot-sec4>.social-anchors{
+    width: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    gap: 10px;
+    height: fit-content;
+    padding: 1%;
+}
+
+/* Icon 1 */
+.foot-sec4>.social-anchors>a{
+    text-decoration: none;
+   background-color: #ED1C24;
+   color: black;
+    width:40px;
+    height: 40px;
+    font-size: 1.3rem;
+    /* font-weight: 900; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-sec4>a{
+    margin-top: 4%;
+}
+

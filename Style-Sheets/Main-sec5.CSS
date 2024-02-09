@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* apercu font face  */
+@font-face {
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+@font-face {
+    font-family: Futurak;
+    src: url(./../futurak.ttf);
+}
+
+/* Section 5 Styling  */
+#sec-5{
+    background-color: rgba(255, 255, 255, 0.05);
+    height: fit-content;
+    margin-top: 2%;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2%;
+}
+
+/* Section 5 Elements  */
+.sec-5-elements{
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+
+/* Section5 Head Content  */
+.sec-5-head-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-5-head-content>h3{
+    font-family:'Times New Roman', Times, serif,sans-serif;
+    font-size:3.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+/* Village Franchise Div  */
+.village-fran-div{
+    width: 100%;
+    margin-top:1%;
+    padding: 1%;
+    display: flex;
+}
+
+/* Image Div  */
+.image-div{
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Village Franchise head div  */
+.village-fran-head-div{
+    width: 100%;
+    margin-left: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.village-fran-head-div>h4{
+    color: #ED1C24;
+    font-weight: 100;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    letter-spacing: 7px;
+    font-size: 1.2rem;
+}
+
+.village-fran-head-div>h3{
+    font-size:2.6rem;
+    font-family: Futurak,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 100;
+}
+
+.village-fran-head-div>h3>span{
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+}
+
+.village-fran-head-div>p{
+    color: #ffffffB3;
+    font-size: 1rem;
+}
+
+/* Get Direction Button  */
+.sec5-gd-button{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.sec5-gd-button>.sec5-button-anchor{
+    text-decoration: none;
+    color: #fff;
+    padding:2.5%;
+    width: fit-content;
+    border: 1px solid #28a745;
+    background-color:#28a745;
+    border-radius: 25px;
+    font-family: apercu,'Times New Roman', Times, serif,sans-serif;
+    font-weight: 400;
+}
+
+.sec5-button-anchor>span{
+    background-color: #fff;
+    color: #28a745;
+    margin: 1%;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.sec5-button-anchor:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);;
+}
+
+.sec5-button-anchor:hover{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);;
+}

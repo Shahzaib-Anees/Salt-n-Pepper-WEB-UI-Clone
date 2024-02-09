@@ -1,0 +1,142 @@
+/* body{
+    overflow-x: hidden;
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    /* overflow-x: hidden; */
+}
+
+
+/* apercu font face  */
+@font-face{
+    font-family: apercu;
+    src: url(./../Apercu\ Regular.ttf);
+}
+
+/* Nav Bar  */
+.nav-bar {
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    padding-right: 0%;
+}
+
+/* Nav Elements  */
+.nav-bar>.nav-elements {
+    width: 95%;
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+/* Nav Icons Div  */
+.nav-icon{
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    width: 11%;
+    height: 90%;
+    margin-left: 12%;
+    margin-top: 3px;
+}
+
+.nav-icon>a{
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+/* Nav-logo Image  */
+.nav-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Nav Class Anchors  */
+.nav-class-anchors{
+    /* border: 2px solid yellow; */
+    margin-left: 15%;
+    width:28%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-class-anchors>a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-family:apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-top: 2%;
+    /* margin-left:10% ; */
+}
+.nav-class-anchors>a:hover{
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+/* nav aside rounds div */
+.nav-aside-rounds{
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 9%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* vertical-align: middle; */
+}
+
+.nav-aside-rounds>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family:apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+    /* margin-right:10px; */
+}
+
+/*nav-aside-rounds-2 div  */
+.nav-aside-rounds-2{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 35px;
+    width: 10%;
+    height: 71%;
+    margin-left: 1%;
+    margin-bottom: 0.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-aside-rounds-2>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family:apercu,sans-serif,'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.nav-aside-rounds-2>a>#arrow-icon{
+    background-color: #fff;
+    /* font-size: 10px; */
+    color: red;
+    font-size: 20px;
+    /* margin-top: 1%; */
+    width: 1.3vw;
+    border-radius: 50%;
+}
