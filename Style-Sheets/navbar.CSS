@@ -82,6 +82,10 @@ body {
     padding: 1%;
 }
 
+#cross-mark {
+    display: none;
+}
+
 .nav-class-anchors>li>a {
     text-decoration: none;
     font-size: 16px;

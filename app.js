@@ -7,3 +7,13 @@ function hamburger(){
         console.log("Error");
     }
 }
+
+function vis_none(){
+    var x=document.getElementById("nav-links");
+    if(x.style.display === "flex"){
+        x.style.display = "none";
+        console.log("True");
+    }else{
+        console.log("Error");
+    }
+}
