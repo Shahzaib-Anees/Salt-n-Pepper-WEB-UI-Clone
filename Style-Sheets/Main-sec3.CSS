@@ -69,7 +69,7 @@
 .isl-frans-br {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     padding: 1%;
     margin-top: 1%;

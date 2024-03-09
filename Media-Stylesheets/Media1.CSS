@@ -100,4 +100,56 @@
         width: 110px;
         height: 60px;
     }
+
+    /* Hero Section images  */
+    .anim-images {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .anim-images>.anim-img-1 {
+        width: 100%;
+        height: 45vh;
+        background-image: url("./../WEB-Images/mob-hero-bg-img.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* Section 2 Head Content  */
+
+    .after-content-head-others {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:10px 12px;
+        margin-top: 25px;
+    }
+
+    .content-head {
+        font-size: 1.5rem;
+        font-weight: 100;
+        width: 100%;
+        padding: 0.5%;
+        line-height: 37px;
+        word-spacing: 2px;
+        margin-bottom: 4px;
+    }
+
+    .snp-head {
+        font-size: 1.9rem;
+        font-weight: 400;
+        font-family: Futurak, apercu, sans-serif, 'Times New Roman', Times, serif;
+        color: #fff;
+    }
+
+    .after-content-head-others>p {
+        font-size: 0.9rem;
+        line-height: 20px;
+        font-family: apercu, sans-serif, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /* Section 3 Media  */
 }
