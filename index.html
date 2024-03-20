@@ -44,7 +44,7 @@
                         <li><a href="https://saltnpepper.com.pk/feedback">Feedback</a></li>
                     </ul>
                     <!-- Nav Aside Clickable Round Button  -->
-                    <div class="nav-aside-rounds nav-borders" >
+                    <div class="nav-aside-rounds nav-borders">
                         <a href="https://saltnpepper.com.pk/franchise">Get a Franchise</a>
                     </div>
                     <!-- Nav Aside Clickable Round Button  -->
@@ -60,13 +60,28 @@
     <main>
         <!-- Section 1  -->
         <section>
-            <article class="anim-images">
-                <div class="anim-img-1">
-                    <a href="./index.html">
-                        <!-- <img src="./WEB-Images/mid-anim-img.png" alt="image"> -->
-                    </a>
-                </div>
+            <article class="img-slider">
+                <a href="./index.html" class="slide_anchor">
+                    <img src="./WEB-Images/mid-anim-img.png" class="slide" alt="image">
+                </a>
+                <a href="./index.html" class="slide_anchor">
+                    <img src="./WEB-Images/mid-anim-img2.png" class="slide" alt="image">
+                </a>
+                <a href="./index.html" class="slide_anchor">
+                    <img src="./WEB-Images/mid-anim-img3.png" class="slide" alt="image">
+                </a>
+                <a href="./index.html" class="slide_anchor">
+                    <img src="./WEB-Images/mid-anim-img4.png" class="slide" alt="image">
+                </a>
             </article>
+            <div class="slider-button-container">
+                <button onclick="goPrev()">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button onclick="goNext()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
         </section>
 
         <!-- Section 2  -->
@@ -777,11 +792,13 @@
                 <div class="foot-end-head">
                     <p>&copy;2023 Salt'n Pepper Restaurant</p>
                     <p>Powered By
-                        <span>tossdown.com</span></p>
+                        <span>tossdown.com</span>
+                    </p>
                 </div>
             </div>
         </section>
     </footer>
 </body>
-<script src="./app.js"></script>
+<script src="./index.js"></script>
+
 </html>
